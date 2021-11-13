@@ -1,0 +1,6 @@
++ Fixed PortalChat bugs on 1.16.3
++ Improved font rendering on 1.16.3
++ Added background option to hud elements
++ Fixed player preview blending in 1.12.2
++ Fixed alignment of Inv Preview in 1.16.3
++ Fixed compatibility with Inertia Client 1.16.3

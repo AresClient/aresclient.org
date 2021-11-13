@@ -1,0 +1,12 @@
+[
+    {
+        "url": "https://aresclient.org/capes/dev.png",
+        "uuids": ["4b0610ac965f4d0d906f624c7c34a197", "758fa9ae0d384ce39732967ad44f780e", "974944d439364f5e8a1a60900f46b04a", "de4de0dd81c94919af202e1fb0000a98"],
+        "rainbow": true
+    },
+    {
+        "url": "https://aresclient.org/capes/regular.png",
+        "uuids": ["0c716198b9cb4ac38216c5b6c68e0c51", "9848ad627afa425381f9170f7d6cc492", "2790e35879e64fc48deeef5af78890a6", "19226f1595ea4d8ea76ea04ffd58139a", "ba1dffef5fec42769a1102587e460d6d", "3affe331c4bc44038eed373aeabce875",
+"0a4854730ffc4cdaa3f3c51d300957f6", "47f78584c76c419192fd8c943af13054", "733ac0f184a0499081cc8e4480b75a6c", "071c65022cac49a7b316b57866c69f83", "5d2b2a90ba5c4a6b8af1020d4158f55c", "5a0c1694f68a410ab8a5c0556ed7fa93"]
+    }
+]

@@ -1,0 +1,11 @@
+ + Added custom line width to block highlight
+ + Removed optimizations button and moved the optimizations to the clickgui
+ + Added trajectories
+ + Added tracers to search
+ + Fixed tracers bobbing
+ + Fixed lag in GUI when console is super full
+ + Improved fontrenderer
+ + Improved nametag scaleing
+ + Added padding to GUI
+ + Changed BowSpam to BowRelease
+ + Created 1.16.3 version!

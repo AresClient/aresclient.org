@@ -1,0 +1,11 @@
++ New GUI
++ Added Console
++ New update notifications
++ Added account manager
++ Added TotemPopCounter
++ Added OffhandGap
++ Added NoSlowDown
++ Fixed auto crystal targeting players standing on ledge
++ Added text shadow option to HUD
++ Made surround stay on when in freecam
++ Custom font

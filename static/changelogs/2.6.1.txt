@@ -1,0 +1,1 @@
++ Fixed major crash on startup for new users

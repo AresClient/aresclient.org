@@ -1,0 +1,333 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Lato, sans-serif;
+    height: 100%;
+}
+
+.background {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.navtitle {
+    position: fixed;
+    z-index:2;
+    top: 0;
+    width: 30%;
+    margin: 0;
+    padding: 0;
+}
+
+.navtitle div {
+    float: left;
+}
+
+.navtitle a {
+    display: inline-block;
+    padding: 15px 2px;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+
+.navtitle img {
+    padding-top: 4px;
+    padding-left: 4px;
+}
+
+.nav {
+    position: fixed;
+    z-index:1;
+    top: 0;
+    width: 100%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: black;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav a {
+    display: inline-block;
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+
+#titlediv {
+    display: block;
+    text-align: center;
+    padding-top: 150px;
+}
+
+#title {
+    font-size: 40px;
+}
+
+#title b {
+    font-size: 70px;
+}
+
+#title small {
+    font-size: 25px;
+}
+
+.pancake {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#featureinfo div {
+    flex: 1 1 500px; /*  Stretching: */
+    flex: 0 1 500px; /*  No stretching: */
+    margin: 10px;
+}
+
+#featureinfo {
+    padding-top: 50px;
+    text-align: center;
+}
+
+#featureinfo div {
+    background-color: white;
+    border-radius: 7px;
+    border: 1px solid black;
+    height: 400px;
+}
+
+#featureinfo div b {
+    font-size: 40px;
+}
+
+#featureinfo img {
+    -webkit-filter: invert(100%); /* Safari/Chrome */
+    filter: invert(100%);
+    width: 200px;
+    height: 200px;
+}
+
+#featureinfo p {
+    font-size: 20px;
+}
+
+.centered {
+    display: flex;
+    justify-content: center;
+}
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 250px;
+}
+
+div.gallery img, div.gallery video {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+    font-size: 20px;
+}
+
+#screenshots div {
+    flex: 1 1 700px; /*  Stretching: */
+    flex: 0 1 700px; /*  No stretching: */
+    margin: 10px;
+    background-color: white;
+}
+
+.break {
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.break b {
+    font-size: 40px;
+}
+
+.break div {
+    display: block;
+    text-align: center;
+}
+
+.break p {
+    font-size: 25px;
+}
+
+#discord div {
+    float: left;
+    margin: 20px;
+}
+
+footer {
+    height: 25px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+
+.boxshadow {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.border {
+    background-color: white;
+    border-radius: 7px;
+    border: 1px solid black;
+}
+
+.vercontainer div {
+    flex: 1 1 600px; /*  Stretching: */
+    flex: 0 1 600px; /*  No stretching: */
+    margin: 10px;
+}
+
+.vercontainer, .faqcontainer {
+    padding-top: 50px;
+}
+
+.vercontainer b {
+    text-align: center;
+    font-size: 25px;
+}
+
+details {
+    padding-left: 15px;
+    padding-bottom: 10px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.faqcontainer div {
+    flex: 1 1 500px; /*  Stretching: */
+    flex: 0 1 500px; /*  No stretching: */
+    margin: 10px;
+    text-align: center;
+}
+
+.faqcontainer b {
+    font-size: 20px;
+}
+
+.devinfo {
+    width: 500px;
+    text-align: center;
+}
+
+.devinfo img {
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+}
+
+.devinfo {
+    font-size: 20px;
+}
+
+.devinfo b {
+    font-size: 30px;
+}
+
+.toppadded {
+    padding-top: 15px;
+}
+
+#download-count-div {
+    font-size: 25px;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 0;
+}
+
+.downloads {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+    flex: 1 1 300px; /*  Stretching: */
+    flex: 0 1 300px; /*  No stretching: */
+    margin: 10px;
+    cursor: pointer;
+}
+
+.downloads:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+}
+
+.downloads div {
+    flex: 1 1 40%; /*  Stretching: */
+    flex: 0 1 40%; /*  No stretching: */
+    margin-top: 4px;
+}
+
+.downloads p {
+    margin: 5px;
+    font-size: 15px;
+}
+
+.downloads img {
+    width: 150px;
+    height: 150px;
+    border-radius: 30%;
+}
+
+.downloads-parent {
+    padding-top: 50px;
+}
+
+.downloads-parent b {
+    text-align: center;
+    font-size: 30px;
+}
+
+.downloads-parent a {
+    text-decoration: none;
+    color: black;
+}
+
+.installinstructions {
+    padding: 5px 15px;
+}
+
+#buttons {
+    margin: 50px 0 80px;
+    text-align: center;
+}
+
+.homebutton {
+    background-color: #890707;
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+    border-radius: 7px;
+    padding: 10px 15px;
+    margin: 5px;
+}
+
+.homebutton img {
+    height: 0.9em;
+    margin-top: 1px;
+}
+
+.homebutton:hover {
+    background-color: #9a1111;
+}

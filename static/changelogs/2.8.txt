@@ -1,0 +1,11 @@
+// First release open source!
++ Added BurrowDetect
++ Fix scroll plane bug
++ Added WeaponOnly option to KillAura
++ Added Fabritone to Fabric version
++ Fixed crash on system message on Fabric version
++ Added Expanded GUI mode
+- Removed ObbyPlace module
++ Added color indicator for trajectories
++ Ported all remaining modules to Fabric version
++ Added another HUD background mode
