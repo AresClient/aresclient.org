@@ -201,6 +201,10 @@ footer {
     margin: 10px;
 }
 
+.faq {
+    padding: 10px;
+}
+
 .vercontainer, .faqcontainer {
     padding-top: 50px;
 }
